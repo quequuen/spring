@@ -236,7 +236,7 @@ public class AdminController {
 		model.addAttribute("goodsInfo", adminService.goodsGetDetail(bookId));
 
 	}
-	
+	//야호
 	   /* 첨부 파일 업로드 */
 		@PostMapping("/uploadAjaxAction")
 		public void uploadAjaxActionPOST(MultipartFile[] uploadFile) {
